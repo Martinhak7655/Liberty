@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@300&family=Roboto:ital@0;1&display=swap');
+
+body {
+    font-family: 'Italianno', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-around2 {
+    width: 80%;
+    height: 369px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    position: absolute;
+    top: 100px;
+    flex-direction: column;
+    display: none;
+}
+
+.menu-around2 >hr {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu-js {
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+#menu-js2 {
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.menu-admin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 80%;
+    height: 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;  
+    /* position: fixed;
+    top: 0; */
+}
+
+.menu-around {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.a-href {
+    width: 100px;
+    height: 40px;
+    background-color: #7453FC;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nft {
+    width: 100%;
+    height: 929px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nft-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nft-column {
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.nft-column2 {
+    width: 526px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #7453FC;
+}
+
+.but-around {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.but-around > button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: #7453FC;
+    border: none;
+    cursor: pointer;
+}
+
+.but-around2 {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.but-nft1 {
+    width: 150px;
+    height: 45px;
+    border: 1px solid #7453FC;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+
+.but-nft1:hover {
+    background-color: #7453FC;
+}
+
+.but-nft2 {
+    width: 150px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: #7453FC;
+    color: white;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+
+.but-nft2:hover {
+    background-color: white;
+    color: black;
+}
+
+.browse-around2 {
+    width: 100%;
+
+}
+
+.browse {
+    width: 100%;
+    height: 1400px;
+    background-color: #24242E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.browse-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.browse-div {
+    width: 196px;
+    height: 162px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 30px;
+    color: white;    
+    flex-direction: column;
+    gap: 10px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.browse-icons {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: #7453FC;
+}
+
+.prev2 {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.browse-div2 {
+    width: 450px;
+    height: 552px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.next2 {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slide-img {
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    transition: all 0.5s;
+}
+
+.browse-around2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.browse-div2-column {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: none;
+}
+
+.slide-img:hover~.browse-div2-column {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.browse-div2-column > hr {
+    width: 70%;
+    height: 1px solid;
+    background-color: white;;
+}
+
+.browse-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.browse-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.browse-but {
+    width: 70%;
+    height: 40px;
+    background-color: #7453FC;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    position: relative;
+    top: 25px;
+}
+
+.market {
+    width: 100%;
+    height: 1200px;
+    background-image: url(https://templatemo.com/templates/templatemo_577_liberty_market/assets/images/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 80px;
+}
+
+.market-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.market-but {
+    width: 150px;
+    height: 40px;
+    background-color: #7453FC;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.market-div {
+    width: 440px;
+    height: 251px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 50px;
+    border-left: 1px solid white;
+}
+
+.items {
+    width: 100%;
+    height: 3600px;
+    background-color: #24242E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 150px;
+}
+
+.items-around {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-around2 {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-but1 {
+    width: auto;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: #7453FC;
+    color: white;
+}
+
+.items-but {
+    width: auto;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background: none;
+    color: white;
+    transition: all 0.5s;
+}
+
+.items-but:hover {
+    background-color: #7453FC;
+}
+
+.items-div {
+    width: 570px;
+    height: 388px;
+    background-color: #282B2F;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    padding-left: 50px;
+}
+
+.items-div > img {
+    border-radius: 20px;
+}
+
+.items-column {
+    width: 283px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items-around3 {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-around3 > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.items-column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+    #menu-js {
+        display: block;
+    }
+    .menu-around {
+        display: none;
+    }
+    .nft-column > h1 {
+        font-size: 30px;
+    }
+    .nft {
+        height: 1200px;
+    }
+    .nft-around {
+        flex-wrap: wrap; 
+        gap: 50px;
+    }
+    .nft-column2 > img {
+        width: 250px;
+    }
+    .browse {
+        height: 2200px;
+        display: flex;
+        align-items: center;
+    }
+    .prev2 {
+        width: 50px;
+        
+    }
+    .next2 {
+        width: 50px;
+    }
+    .browse-around {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .browse-div2 {
+       width: 300px;
+    }
+    .browse-around2 {
+        width: 100%;
+    }
+    .market-div {
+        width: auto;
+    }
+    .market-around {
+        flex-wrap: wrap;
+    }
+    .items {
+        height: 3000px;
+    }
+    .items-around2 {
+        width: 100%;
+    }
+    .items-around {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .items-div {
+        width: auto;
+    }
+    .items-div > img {
+        display: none;
+    }
+}
+
+.nft-h1 {
+    font-size: 40px;
+}
